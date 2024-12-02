@@ -1,7 +1,7 @@
 
 
 import { HERO_CONTENT } from "/src/constants/index.js";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/profile.png";
 import { motion } from "motion/react"
 
 const container = (delay) => ({
@@ -56,7 +56,7 @@ export const Hero = () => {
               transition={{duration: 1, delay: 1.2}}
               src={profilePic}
               alt="Durjoy Kundu"
-              className="rounded max-w-xs sm:max-w-sm lg:max-w-md"
+              className="rounded-full max-w-xs sm:max-w-sm lg:max-w-md"
             />
           </div>
         </div>

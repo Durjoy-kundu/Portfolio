@@ -34,11 +34,16 @@
 // }
 
 import { PROJECTS } from "../constants";
+import { motion } from "framer-motion"
 
 export const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl sm:text-3xl">Projects</h1>
+      <motion.h1
+      whileInView={{ opacity: 1, y:0 }}
+      initial={{opacity: 0, y: -100}}
+      transition={{duration: 1.5}}
+      className="my-20 text-center text-4xl sm:text-3xl">Projects</motion.h1>
       <div>
         {PROJECTS.map((project, index) => (
           <div
@@ -46,7 +51,11 @@ export const Projects = () => {
             className="mb-8 flex flex-wrap lg:flex-nowrap lg:justify-center"
           >
             {/* Project Image Section */}
-            <div className="w-full lg:w-1/4 flex justify-center">
+            <motion.div
+            whileInView={{ opacity: 1, x: 0}}
+            initial={{ opacity: 0, x: -100}}
+            transition={{ duration: 1}}
+             className="w-full lg:w-1/4 flex justify-center">
               <img
                 src={project.image}
                 alt={project.title}
@@ -54,10 +63,14 @@ export const Projects = () => {
                 height={project.title}
                 className="mb-6 rounded lg:mb-0"
               />
-            </div>
+            </motion.div>
 
             {/* Project Details Section */}
-            <div className="w-full max-w-xl lg:w-3/4 px-4">
+            <motion.div 
+            whileInView={{ opacity: 1, x: 0}}
+            initial={{ opacity: 0, x: 100}}
+            transition={{ duration: 1}}
+            className="w-full max-w-xl lg:w-3/4 px-4">
               <h6 className="mb-2 font-semibold text-lg">{project.title}</h6>
               <p className="mb-4 text-neutral-400 text-sm lg:text-base">
                 {project.description}
@@ -74,7 +87,7 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>

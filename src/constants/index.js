@@ -6,7 +6,11 @@ import project4 from "../assets/projects/project-4.jpg";
 export const HERO_CONTENT = `I am a passionate full-stack developer with expertise in the MERN stack, including React, Tailwind CSS, Node.js, Express.js, and MongoDB. I thrive on building scalable and efficient web applications with a focus on clean code and seamless user experiences. With a strong foundation in both frontend and backend development, I am committed to creating innovative solutions that meet client needs. My goal is to continually enhance my skills and contribute to impactful projects that push the boundaries of web technology. Let's collaborate to turn ideas into reality!
 `;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a recent graduate in Computer Science and Engineering with a strong passion for problem-solving, competitive programming, and mastering data structures and algorithms. My curiosity for technology drives me to continually enhance my skills and build innovative solutions.
+
+Currently, I am focused on advancing my expertise in the MERN stack—MongoDB, Express.js, React, and Node.js. I enjoy creating dynamic, responsive, and user-centric web applications that deliver seamless experiences. My academic foundation in computer science, coupled with hands-on projects, has provided me with a solid understanding of software development and full-stack technologies.
+
+As an aspiring software engineer, I aim to leverage my programming knowledge to solve real-world problems and contribute to impactful projects. I am excited to grow as a developer and make meaningful contributions to the tech industry by blending creativity, technical skills, and a strong commitment to excellence.`;
 
 export const EXPERIENCES = [
   {
