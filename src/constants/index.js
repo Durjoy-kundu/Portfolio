@@ -3,7 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full-stack developer with expertise in the MERN stack, including React, Tailwind CSS, Node.js, Express.js, and MongoDB. I thrive on building scalable and efficient web applications with a focus on clean code and seamless user experiences. With a strong foundation in both frontend and backend development, I am committed to creating innovative solutions that meet client needs. My goal is to continually enhance my skills and contribute to impactful projects that push the boundaries of web technology. Let's collaborate to turn ideas into reality!
+`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -58,7 +59,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
   },
   {
     title: "Blogging Platform",
@@ -70,7 +71,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "767 Fifth Avenue, Dhaka, Bangladesh ",
+  phoneNo: "+8801900000",
+  email: "durjoykundu07@gmail.com",
 };
