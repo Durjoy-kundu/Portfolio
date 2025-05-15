@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with expertise in the MERN stack, including React, Tailwind CSS, Node.js, Express.js, and MongoDB. I thrive on building scalable and efficient web applications with a focus on clean code and seamless user experiences. With a strong foundation in both frontend and backend development, I am committed to creating innovative solutions that meet client needs. My goal is to continually enhance my skills and contribute to impactful projects that push the boundaries of web technology. Let's collaborate to turn ideas into reality!
 `;
@@ -45,18 +45,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Typing Speed Test",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A responsive Typing Speed Test web app built with React and Tailwind CSS, featuring real-time accuracy feedback, timer, and WPM calculation.",
+    technologies: ["HTML", "Tailwind CSS", "React"],
+    link: "https://speed-test01.vercel.app/"
   },
   {
-    title: "Task Management App",
+    title: "Weather Forecast Web App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A responsive weather forecast web app that displays real-time weather data by city using React, Tailwind CSS, and the OpenWeatherMap API.",
+    technologies: ["HTML", "CSS", "React", "OpenWeatherMap API"],
+    link: "https://sky-cast-sooty-one.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -64,18 +66,14 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
+    link: "https://skycast.vercel.app",
+
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, Dhaka, Bangladesh ",
+  address: "Ashulia, Dhaka, Bangladesh ",
   phoneNo: "+8801900000",
   email: "durjoykundu07@gmail.com",
 };

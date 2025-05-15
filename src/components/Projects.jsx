@@ -75,6 +75,17 @@ export const Projects = () => {
               <p className="mb-4 text-neutral-400 text-sm lg:text-base">
                 {project.description}
               </p>
+              {/* Project Link */}
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mb-4 text-sm text-purple-400 underline hover:text-purple-300 transition"
+                >
+                  🔗 View Project
+                </a>
+              )}
 
               {/* Technologies Section */}
               <div className="flex flex-wrap">
